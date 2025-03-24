@@ -11,3 +11,73 @@ body{
     margin: 5%;
     line-height: 1.6;
 }
+
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(28,123,54,0.1);
+}
+
+header{
+    text-align: center;
+    color:rgb(88, 195, 227);
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    background-image: url('./img/foto-fondo.avif');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header figure img {
+    border-radius: 50%;
+    border: 5px solid #216cae;
+    box-shadow: 0px 0px 10px ;
+}
+
+header h1{
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+header h2{
+   font-size: 1.2em;
+   opacity: 0.7;
+}
+
+.container{
+    background-color: blue;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contenedor_foto_perfil{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #0ebaba;
+    margin: 5%;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+.contenedor_foto_perfil img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cabecera{
+    position: relative;
+}
+.nombre_puesto{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
